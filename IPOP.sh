@@ -27,3 +27,14 @@ pip install tensorflow-gpu
 
 #install keras
 pip install keras
+
+### WINDOWS ###
+conda create --name tensorflow python=3.5
+activate tensorflow
+conda install jupyter
+conda install scipy
+pip install tensorflow
+# or
+# pip install tensorflow-gpu
+
+pip install pydicom
