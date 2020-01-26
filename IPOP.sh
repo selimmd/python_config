@@ -1,3 +1,9 @@
+#for python and virtual env
+sudo apt-get install python3.6
+sudo apt-get install python-virtualenv
+pip install tensorflow==1.9
+
+
 #creating virtual env
 virtualenv myPy
 
@@ -5,7 +11,7 @@ virtualenv myPy
 source myPy/bin/activate
 
 #upgrade pip to collect latest repository
-pip install --upgrade pip
+a
 
 #install tensorflow GPU
 pip install tensorflow-gpu
@@ -38,3 +44,4 @@ pip install tensorflow
 # pip install tensorflow-gpu
 
 pip install pydicom
+pip install opencv-python
