@@ -3,6 +3,8 @@ sudo apt-get install python3.6
 sudo apt-get install python-virtualenv
 pip install tensorflow==1.9
 
+#for windows
+conda info --envs
 
 #creating virtual env
 virtualenv myPy
