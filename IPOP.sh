@@ -32,7 +32,7 @@ pip install --upgrade pip
 pip install tensorflow-gpu
 
 #install keras
-pip install keras
+pip install keras==2.2.0
 
 ### WINDOWS ###
 conda create --name tensorflow python=3.5
