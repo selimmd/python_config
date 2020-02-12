@@ -36,7 +36,13 @@ pip install tensorflow-gpu
 #install keras
 pip install keras==2.2.0
 
+
+# I was getting an error "ERROR: Package 'setuptools' requires a different Python: 2.7.12 not in '>=3.5'"
+#this command solved my error
+pip install --upgrade 'setuptools<45.0.0'
+
 ### WINDOWS ###
+conda remove --name myenv --all
 conda create --name tensorflow python=3.5
 activate tensorflow
 conda install jupyter
