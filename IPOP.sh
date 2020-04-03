@@ -53,3 +53,7 @@ pip install tensorflow
 
 pip install pydicom
 pip install opencv-python
+
+
+#tensorboard
+tensorboard --logdir fit/
