@@ -57,3 +57,8 @@ pip install opencv-python
 
 #tensorboard
 tensorboard --logdir fit/
+
+
+# clear unused GPU
+sudo fuser -v /dev/nvidia*
+sudo kill -9 PID.
