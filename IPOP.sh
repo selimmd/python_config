@@ -66,3 +66,7 @@ sudo kill -9 PID.
 # clear unused GPU
 nvidia-smi
 kill -9 PID
+
+
+#installing python 3
+https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3
