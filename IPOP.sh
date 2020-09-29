@@ -1,3 +1,14 @@
+#jupytar LAB
+python 2.7 is availabe in "py27" tmux "/home/mselim/jupitar"venv
+jupyter lab --no-browser --port 8801 --ip 10.10.10.210
+
+python 2.7 is availabe in "py3" tmux "venv_py3" venv
+jupyter lab --no-browser --port 8803 --ip 10.10.10.210
+
+# if you need nohup to keep running the process
+nohup jupyter lab --no-browser --port 8801 --ip 10.10.10.210 &
+
+
 #for python and virtual env
 sudo apt-get install python3.6
 sudo apt-get install python-virtualenv
