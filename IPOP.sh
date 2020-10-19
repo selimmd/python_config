@@ -1,5 +1,5 @@
 #jupytar LAB
-python 2.7 is availabe in "py27" tmux "/home/mselim/jupitar"venv
+python 2.7 is availabe in "radiomicGAN_venv/py27" tmux "/home/mselim/jupitar"venv
 jupyter lab --no-browser --port 8801 --ip 10.10.10.210
 
 python 2.7 is availabe in "py3" tmux "venv_py3" venv
