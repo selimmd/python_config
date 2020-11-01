@@ -1,6 +1,9 @@
 #jupytar LAB
-python 2.7 is availabe in "radiomicGAN_venv/py27" tmux "/home/mselim/jupitar"venv
-jupyter lab --no-browser --port 8801 --ip 10.10.10.210
+python 3 is availabe in "jupyter" tmux "/home/mselim/"venv
+jupyter lab --no-browser --port 8802 --ip 10.10.10.210
+pip install torch torchvision cuda=10.2 torch=1.7.0
+
+
 
 python 2.7 is availabe in "py3" tmux "venv_py3" venv
 jupyter lab --no-browser --port 8803 --ip 10.10.10.210
