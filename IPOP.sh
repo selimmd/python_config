@@ -11,6 +11,9 @@ jupyter lab --no-browser --port 8802 --ip 10.10.10.210
 pip install torch torchvision cuda=10.2 torch=1.7.0
 pip install tensorflow=2.0.0
 
+# installing Jupyter notebook (lab)
+pip install jupyterlab
+
 
 python 2.7 is availabe in "py3" tmux "venv_py3" venv
 jupyter lab --no-browser --port 8803 --ip 10.10.10.210
