@@ -4,6 +4,12 @@ source myPy/bin/activate
 jupyter lab --no-browser --port 8801 --ip 10.10.10.210
 pip install torch torchvision cuda=10.2 torch=1.7.0
 
+#jupytar LAB for Radiomc
+tmux new -s tf_2_0
+source radiomic_gan/bin/activate
+jupyter lab --no-browser --port 8802 --ip 10.10.10.210
+pip install torch torchvision cuda=10.2 torch=1.7.0
+pip install tensorflow=2.0.0
 
 
 python 2.7 is availabe in "py3" tmux "venv_py3" venv
