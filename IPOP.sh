@@ -15,7 +15,7 @@ pip install tensorflow=2.0.0
 tmux new -s tf_2_1
 virtualenv radiomic_gan_cam
 source radiomic_gan_cam/bin/activate
-jupyter lab --no-browser --port 8802 --ip 10.10.10.210
+jupyter lab --no-browser --port 8803 --ip 10.10.10.210
 pip install torch torchvision cuda=10.2 torch=1.7.0
 pip install tensorflow-gpu==2.1.0
 
