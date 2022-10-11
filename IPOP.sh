@@ -1,3 +1,11 @@
+# preparing the Shao lab workstation
+
+tmux new -s jupyter
+virtualenv diffusion
+source diffusion/bin/activate
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+@cuda=11.6 torch=1.10.2 torchvision=0.11.2
+
 #jupytar LAB
 tmux new -s jupyter
 #source myPy/bin/activate
