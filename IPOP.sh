@@ -1,3 +1,12 @@
+
+# preparing the 10.32.33.63 lab workstation
+tmux new -s jupyter
+virtualenv my_env
+source my_env/bin/activate
+sudo apt get-install pip
+pip install jupyterlab
+pip install notebook
+
 # preparing the Shao lab workstation
 
 tmux new -s jupyter
